@@ -1,0 +1,416 @@
+[
+    {
+        "nome": "Esqueletos / Larrys",
+        "custo_elixir": 1,
+        "descrição": "Três lutadores fracos de combate corpo a corpo, porém muito velozes. Enterre seus inimigos nesta pilha de ossos!",
+        "tags": [
+            "Terrestre",
+            "Ciclo Rápido",
+            "Dano Baixo",
+            "Comum",
+            "Leve"
+        ],
+        "arquivo_imagem": "Esqueletos.webp"
+    },
+    {
+        "nome": "Espírito de fogo",
+        "custo_elixir": 1,
+        "descrição": "O Espírito de fogo está em uma missão para dar um abraço quentinho em você. Seria uma delícia se ele não estivesse pegando fogo.",
+        "tags": [
+            "Terrestre e Áerea",
+            "Ciclo Rápido",
+            "Comum",
+            "Dano em Área"
+        ],
+        "arquivo_imagem": "espiritodefogo.png"
+    },
+    {
+        "nome": "Goblins",
+        "custo_elixir": 2,
+        "descrição": "Três Goblins rápidos e de ataque corpo a corpo. Pequenos, rápidos, verdes e malvados!",
+        "tags": [
+            "Terrestre",
+            "Ciclo Rápido",
+            "Dano Baixo",
+            "Comum",
+            "Leve"
+        ],
+        "arquivo_imagem": "Goblins.webp"
+    },
+    {
+        "nome": "Arqueiras",
+        "custo_elixir": 3,
+        "descrição": "Um par de arqueiras com poucos pontos de vida que ajudam a atacar unidades aéreas e terrestres. O que elas fazem no tempo livre? Mistério.",
+        "tags": [
+            "Terrestre e Áerea",
+            "Ciclo Rápido",
+            "Comum",
+            "Ataque à Distância"
+        ],
+        "arquivo_imagem": "arqueiras.png"
+    },
+    {
+        "nome": "Cavaleiro",
+        "custo_elixir": 3,
+        "descrição": "Um lutador corpo a corpo resistente. Ele é o primo mais bonito e inteligente do Bárbaro. Dizem que foi nomeado cavaleiro por causa do seu bigode glorioso.",
+        "tags": [
+            "Terrestre",
+            "Ciclo Rápido",
+            "Tanque Leve",
+            "Comum",
+            "Leve"
+        ],
+        "arquivo_imagem": "cavaleiro.png"
+    },
+    {
+        "nome": "Gigante",
+        "custo_elixir": 5,
+        "descrição": "Lento, mas resistente, o Gigante ataca apenas construções. Quando chega à torre, o estrago é grande!",
+        "tags": [
+            "Terrestre",
+            "Tanque Pesado",
+            "Rara",
+            "Leve"
+        ],
+        "arquivo_imagem": "gigante.png"
+    },
+    {
+        "nome": "Mini P.E.K.K.A.",
+        "custo_elixir": 4,
+        "descrição": "A arena é uma zona certificada livre de borboletas. Sem distrações para a P.E.K.K.A., só destruição.",
+        "tags": [
+            "Terrestre",
+            "Alto Dano",
+            "Rara",
+            "Rápido"
+        ],
+        "arquivo_imagem": "minipekka.png"
+    },
+    {
+        "nome": "Megacavaleiro",
+        "descrição": "Um tanque saltitante que causa dano em área ao aterrissar. Ele salta de alvo em alvo, destruindo tudo o que toca.",
+        "custo_elixir": "7",
+        "tags": [
+            "Terrestre",
+            "Tanque",
+            "Dano em Área",
+            "Lendária",
+            "Pesado"
+        ],
+        "arquivo_imagem": "megacavaleiro.png"
+    },
+    {
+        "nome": "Mineiro",
+        "descrição": "Pode cavar em qualquer lugar da arena! Uma unidade com pouca vida, mas que causa dano decente às Torres da Coroa.",
+        "custo_elixir": "3",
+        "tags": [
+            "Terrestre",
+            "Ciclo Rápido",
+            "Condiçao de Vitória",
+            "Lendária"
+        ],
+        "arquivo_imagem": "mineiro.png"
+    },
+    {
+        "nome": "Foguete",
+        "descrição": "Lança um foguete devastador que causa dano massivo em um pequeno raio. Ótimo para fechar o jogo ou destruir construções.",
+        "custo_elixir": "6",
+        "tags": [
+            "Feitiço",
+            "Dano Direto",
+            "Pesado",
+            "Rara",
+            "Defesa",
+            "Construções"
+        ],
+        "arquivo_imagem": "foguete.png"
+    },
+    {
+        "nome": "O Tronco",
+        "descrição": "Um tronco gigante que rola pela arena, derrubando e danificando todas as tropas terrestres em seu caminho.",
+        "custo_elixir": "2",
+        "tags": [
+            "Feitiço",
+            "Baixo Custo",
+            "Empurrão",
+            "Terrestre",
+            "Lendária"
+        ],
+        "arquivo_imagem": "tronco.png"
+    },
+    {
+        "nome": "Lançador",
+        "descrição": "Um gigante roxo que arremessa pedras. Essas pedras derrubam as tropas inimigas e atingem as que estão atrás.",
+        "custo_elixir": "5",
+        "tags": [
+            "Terrestre",
+            "Splash",
+            "Defesa",
+            "Empurrão",
+            "Épica"
+        ],
+        "arquivo_imagem": "lançador.png"
+    },
+    {
+        "nome": "Bebê Dragão",
+        "descrição": "Uma unidade aérea que cospe fogo em área. É rápido e resistente, perfeito para suporte.",
+        "custo_elixir": "4",
+        "tags": [
+            "Áerea",
+            "Splash",
+            "Defesa",
+            "Flexível",
+            "Épica"
+        ],
+        "arquivo_imagem": "bebedragao.png"
+    },
+    {
+        "nome": "Valquíria",
+        "descrição": "Uma guerreira robusta com um machado giratório que causa dano massivo a todas as unidades terrestres ao seu redor.",
+        "custo_elixir": "4",
+        "tags": [
+            "Terrestre",
+            "Splash",
+            "Tanque Leve",
+            "Anti-Enxame",
+            "Rara"
+        ],
+        "arquivo_imagem": "valquiria.png"
+    },
+    {
+        "nome": "Balão",
+        "descrição": "Uma construção voadora que joga bombas grandes e lentas em alvos terrestres. Deixa uma bomba de morte ao ser destruído.",
+        "custo_elixir": "5",
+        "tags": [
+            "Áerea",
+            "Condiçao de Vitória",
+            "Construções",
+            "Pesado",
+            "Épica"
+        ],
+        "arquivo_imagem": "balao.png"
+    },
+    {
+        "nome": "Relâmpago",
+        "descrição": "Invoca três raios que atingem as três unidades ou construções inimigas com mais vida na área de efeito.",
+        "custo_elixir": "6",
+        "tags": [
+            "Feitiço",
+            "Dano Alto",
+            "Atordoamento",
+            "Anti-Tanque",
+            "Épica"
+        ],
+        "arquivo_imagem": "relampago.avif"
+    },
+    {
+        "nome": "P.E.K.K.A.",
+        "descrição": "Uma unidade blindada e lenta que causa dano descomunal. Destruidora de tanques por excelência.",
+        "custo_elixir": "7",
+        "tags": [
+            "Terrestre",
+            "Tanque",
+            "Anti-Tanque",
+            "Pesado",
+            "Alto Dano",
+            "Épica"
+        ],
+        "arquivo_imagem": "pekka.png"
+    },
+    {
+        "nome": "Morteiro",
+        "descrição": "Uma construção defensiva de longo alcance que atira projéteis lentos. Usa construções como alvo preferencial.",
+        "custo_elixir": "4",
+        "tags": [
+            "Construão",
+            "Condiçao de Vitória",
+            "Defesa",
+            "Ataque à Distância",
+            "Comum"
+        ],
+        "arquivo_imagem": "morteiro.png"
+    },
+    {
+        "nome": "Corredor",
+        "descrição": "Montado em um porco, ele salta sobre o rio e mira apenas em construções, sendo uma carta rápida de Condição de Vitória.",
+        "custo_elixir": "4",
+        "tags": [
+            "Terrestre",
+            "Condiçao de Vitória",
+            "Rápido",
+            "Construções",
+            "Rara"
+        ],
+        "arquivo_imagem": "corredor.png"
+    },
+    {
+        "nome": "Bárbaros de Elite",
+        "descrição": "Dois Bárbaros furiosos, mais rápidos e fortes que os Bárbaros comuns. Uma ameaça veloz na ponte.",
+        "custo_elixir": "6",
+        "tags": [
+            "Terrestre",
+            "Alto Dano",
+            "Rápido",
+            "Defesa",
+            "Comum"
+        ],
+        "arquivo_imagem": "barbaros-de-elite.png"
+    },
+    {
+        "nome": "Bruxa",
+        "descrição": "Uma feiticeira que evoca Esqueletos para lutar e lança ataques de dano em área.",
+        "custo_elixir": "5",
+        "tags": [
+            "Terrestre",
+            "Evocadora",
+            "Splash",
+            "Suporte",
+            "Épica"
+        ],
+        "arquivo_imagem": "bruxa.png"
+    },
+    {
+        "nome": "Eletrocutadores",
+        "descrição": "Três pequenos robôs que lançam choques para atordoar as tropas inimigas, atrasando o avanço delas.",
+        "custo_elixir": "4",
+        "tags": [
+            "Terrestre",
+            "Suporte",
+            "Atordoamento",
+            "Enxame",
+            "Rara"
+        ],
+        "arquivo_imagem": "eletrocutadores.png"
+    },
+    {
+        "nome": "Espírito de Gelo",
+        "descrição": "Um pequeno espírito que salta, congela o alvo e as tropas ao redor brevemente antes de ser destruído.",
+        "custo_elixir": "1",
+        "tags": [
+            "Espírito",
+            "Ciclo Rápido",
+            "Congelamento",
+            "Defesa",
+            "Baixo Custo",
+            "Comum"
+        ],
+        "arquivo_imagem": "espirito de gelo.png"
+    },
+    {
+        "nome": "Máquina Voadora",
+        "descrição": "Uma construção voadora controlada por um Goblin. Possui longo alcance e causa dano sólido, sendo vulnerável a feitiços.",
+        "custo_elixir": "4",
+        "tags": [
+            "Áerea",
+            "Suporte",
+            "Longo Alcance",
+            "Pouca Vida",
+            "Rara"
+        ],
+        "arquivo_imagem": "maquina voadora.png"
+    },
+    {
+        "nome": "Príncipe",
+        "descrição": "Um cavaleiro com uma armadura brilhante. Ele carrega para dobrar o dano, ideal para ataques rápidos ou empurrar tanques.",
+        "custo_elixir": "5",
+        "tags": [
+            "Terrestre",
+            "Alto Dano",
+            "Carga",
+            "Condiçao de Vitória",
+            "Épica"
+        ],
+        "arquivo_imagem": "principe.png"
+    },
+    {
+        "nome": "Flechas",
+        "descrição": "Chuva de flechas que cobre uma grande área, excelente para eliminar enxames aéreos e terrestres de vida baixa.",
+        "custo_elixir": "3",
+        "tags": [
+            "Feitiço",
+            "Anti-Enxame",
+            "Áerea e Terrestre",
+            "Dano em Área",
+            "Comum"
+        ],
+        "arquivo_imagem": "flechas.webp"
+    },
+    {
+        "nome": "Dragão Infernal",
+        "descrição": "Uma tropa aérea que foca em um único alvo e causa dano progressivo, derretendo tanques rapidamente.",
+        "custo_elixir": "4",
+        "tags": [
+            "Áerea",
+            "Anti-Tanque",
+            "Dano Progressivo",
+            "Construções",
+            "Lendária"
+        ],
+        "arquivo_imagem": "dragao-infernal.png"
+    },
+    {
+        "nome": "Golem",
+        "descrição": "O tanque mais pesado do jogo. Ao ser destruído, ele se divide em dois golemitas, causando dano de explosão.",
+        "custo_elixir": "8",
+        "tags": [
+            "Terrestre",
+            "Condiçao de Vitória",
+            "Tanque Pesado",
+            "Geração de Enxame",
+            "Épica"
+        ],
+        "arquivo_imagem": "golem.png"
+    },
+    {
+        "nome": "Goblin Gigante",
+        "descrição": "Um gigante robusto que carrega Goblins de Elixir nas costas. Foca em construções e é uma poderosa carta de pressão.",
+        "custo_elixir": "6",
+        "tags": [
+            "Terrestre",
+            "Condiçao de Vitória",
+            "Geração de Enxame",
+            "Tanque",
+            "Épica"
+        ],
+        "arquivo_imagem": "goblin-gigante.png"
+    },
+    {
+        "nome": "Torre Inferno",
+        "descrição": "Uma construção defensiva que queima o inimigo com dano progressivo, sendo a maior ameaça a tanques.",
+        "custo_elixir": "5",
+        "tags": [
+            "Construão",
+            "Anti-Tanque",
+            "Dano Progressivo",
+            "Defesa",
+            "Rara"
+        ],
+        "arquivo_imagem": "torre-inferno.png"
+    },
+    {
+        "nome": "Caçador",
+        "descrição": "Um caçador desajeitado que dispara 10 tiros, sendo devastador a curta distância, mas ineficaz de longe.",
+        "custo_elixir": "4",
+        "tags": [
+            "Terrestre",
+            "Dano Múltiplo",
+            "Curto Alcance",
+            "Anti-Aéreo",
+            "Épica"
+        ],
+        "arquivo_imagem": "caçador.png"
+    },
+    {
+        "nome": "Cemitério",
+        "descrição": "Um feitiço que evoca Esqueletos em qualquer lugar da arena durante um certo tempo, perfeito para ataques de surpresa.",
+        "custo_elixir": "5",
+        "tags": [
+            "Feitiço",
+            "Condiçao de Vitória",
+            "Geração de Enxame",
+            "Surpresa",
+            "Lendária"
+        ],
+        "arquivo_imagem": "cemiterio.png"
+    }
+]
